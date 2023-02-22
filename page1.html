@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- En-tête de la page -->
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/feuille.css"/>
+        <title>Dragon Ball Z </title>
+    </head>
+    <body>
+	<h1>Dragon Ball Z: 1er partie: Les Saiyens</h1>
+    <div class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="page1.html">PAGE.1</a></li>
+                <li><a href="page2.html">TABLEAU</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h2 onmouseover="premierBouton()" class="my-class">Présentation de la partie 1 de dragon ball Z: 'Père et fils vivent dans l'harmonie et le bonheur, jusqu'au jour où débarque un extraterrestre du nom de Raditz. ... Mais Songoku refuse, ce qui provoque la colère de Raditz : pour le forcer à se rallier à lui, il kidnappe Songohan et menace de le tuer.   </h2>
+    <p class="bienvenue">Vous venez d'attérir dans la partie 1 de dragon ball Z</p>
+    <div class="imageCenter">
+        <img src="../image/dbz.jpg">
+          </div>
+		 <a href="https://www.youtube.com/watch?v=pYnLO7MVKno">Cliquez ici si la vidéo ne fonctionne pas</a>
+		<div id="video-container">
+        <!-- Video -->
+        <video controls width="500">
+            <source src="../video/Dragon Ball Z.mp4" type="video/mp4">
+			<a href="../video/Dragon Ball Z.mp4">un lien pour télécharger la vidéo</a>.</p>
+          </video>
+        <!-- Corps de la page -->
+        <script>
+            age = parseInt(prompt('Entrez votre age'));
+            if (age < 16) {
+                location.href="page1.html";
+            } else if (age >= 16) {
+                location.href = "page2.html" ;
+            } 
+        </script>
+        <script src="../javascript/button.js"></script>
+ </body>
+</html>
